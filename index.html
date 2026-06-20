@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hayot Bank - Premium raqamli islom banki. Shariat advisory kengashi ma'qullagan halol Mudaraba jamg'armalari va Murabaha moliyalash.">
+    <title>Hayot Bank - Prestige Islamic Private Banking</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/icon/HayotBankLogoIcon.svg">
+    <!-- Google Fonts: Inter (Sans-Serif, Body & Headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Header (Prestige Bar) -->
+    <div class="top-header">
+        <div class="container top-header-container">
+            <div class="top-header-left">
+                <div class="top-header-info">
+                    <span class="info-item">
+                        <svg class="info-svg-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span data-translate="top_header_support">Prestige Line: 1244</span>
+                    </span>
+                    <span class="info-divider">|</span>
+                    <span class="info-item">
+                        <svg class="info-svg-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"></line><line x1="6" y1="18" x2="6" y2="11"></line><line x1="10" y1="18" x2="10" y2="11"></line><line x1="14" y1="18" x2="14" y2="11"></line><line x1="18" y1="18" x2="18" y2="11"></line><polygon points="12 2 2 7 22 7"></polygon></svg>
+                        <span data-translate="top_header_license">Markaziy Bank litsenziyasi № 254</span>
+                    </span>
+                </div>
+            </div>
+            <div class="top-header-actions">
+                <div class="search-bar hide-on-mobile">
+                    <input type="text" data-translate-placeholder="search_placeholder" placeholder="Qidiruv...">
+                    <span class="icon-svg icon-search"></span>
+                </div>
+                
+                <!-- Custom Language Selection dropdown -->
+                <div class="lang-dropdown-container">
+                    <div class="lang-trigger">
+                        <span class="lang-current">UZ</span>
+                        <svg class="chevron-down-svg" width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1l4 4 4-4"/></svg>
+                    </div>
+                    <ul class="lang-dropdown-menu">
+                        <li class="lang-option active" data-value="uz">UZ</li>
+                        <li class="lang-option" data-value="ru">RU</li>
+                        <li class="lang-option" data-value="en">EN</li>
+                    </ul>
+                </div>
+                
+                <a href="#" class="btn-login-link" data-translate="kirish">Kirish</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="logo">
+                <img src="img/icon/HayotBankLogo.svg" alt="Hayot Bank" class="logo-img">
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active" data-translate="nav_home">Asosiy</a></li>
+                    <li><a href="#services" class="nav-link" data-translate="nav_services">Xizmatlar</a></li>
+                    <li><a href="#financing" class="nav-link" data-translate="nav_calc">Kalkulyator</a></li>
+                    <li><a href="#cards" class="nav-link" data-translate="nav_cards">Kartalar</a></li>
+                    <li><a href="#rates-live-badge" class="nav-link" data-translate="nav_rates">Valyuta</a></li>
+                    <li><a href="#chatbot-widget" class="nav-link" data-translate="nav_faq">Savollar</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="rates-live-badge" id="rates-live-badge">
+                    <img src="img/icon/flag-usa.svg" class="currency-flag" alt="USA">
+                    <span class="live-rate-text">USD / UZS: 12,680</span>
+                </div>
+                <a href="#hero" class="btn btn-secondary btn-sm hide-mobile" data-translate="omonat_ochish">Karta buyurtma qilish</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Menuni ochish">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Search & Rates Row -->
+    <div class="mobile-search-rates-row">
+        <div class="container mobile-row-container">
+            <div class="rates-live-badge-mobile">
+                <img src="img/icon/flag-usa.svg" class="currency-flag" alt="USA">
+                <span class="live-rate-text" id="mobile-rate-text">USD / UZS: 12,680</span>
+            </div>
+            <div class="search-bar search-bar-mobile">
+                <input type="text" data-translate-placeholder="search_placeholder" placeholder="Qidiruv...">
+                <span class="icon-svg icon-search"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section (Wide Landscape Slider) -->
+    <section class="hero-slider" id="hero">
+        <div class="slider-wrapper">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="slide-bg-img" style="background-image: url('img/post/uzbek_professional.png');"></div>
+                <div class="slide-overlay"></div>
+                <div class="container slide-content-container">
+                    <div class="slide-content">
+                        <div class="badge animate-fade-in" data-translate="hero_badge">Hayot Bank • Halol va Aqlli Xususiy Bankchilik</div>
+                        <h1 class="hero-title animate-slide-up" data-translate="hero_title">Mablag'laringiz uchun <br><span class="text-gradient">zumraddek sof</span> va halol o'sish</h1>
+                        <p class="hero-description animate-slide-up-delay" data-translate="hero_description">Boyligingizni Shariat tamoyillariga to'liq mos ravishda, yashirin komissiyalarsiz va oliy darajadagi shaffoflik bilan boshqaring. Biz an'analar va zamonaviy taraqqiyotning mukammal uyg'unligimiz.</p>
+                        <div class="hero-btns animate-slide-up-delay-2">
+                            <a href="#" class="btn btn-secondary" data-translate="hero_btn_start">Sarmoyani boshlash</a>
+                            <a href="#" class="btn btn-outline-white" data-translate="hero_btn_more">Kengash fatvosi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-bg-img" style="background-image: url('img/post/uzbek_family.png');"></div>
+                <div class="slide-overlay"></div>
+                <div class="container slide-content-container">
+                    <div class="slide-content">
+                        <div class="badge animate-fade-in" data-translate="hero_badge">Hayot Bank • Halol va Aqlli Xususiy Bankchilik</div>
+                        <h1 class="hero-title animate-slide-up" data-translate="hero_title_2">Oilangiz kelajagi va <br><span class="text-gradient">halol sarmoya</span></h1>
+                        <p class="hero-description animate-slide-up-delay" data-translate="hero_description_2">Farzandlaringiz kelajagi va oilaviy jamg'armalaringizni foizsiz, Shariat qoidalariga to'liq mos ravishda ishonchli loyihalarga yo'naltiring. Kelajakni birgalikda quramiz.</p>
+                        <div class="hero-btns animate-slide-up-delay-2">
+                            <a href="#" class="btn btn-secondary" data-translate="hero_btn_start">Sarmoyani boshlash</a>
+                            <a href="#" class="btn btn-outline-white" data-translate="hero_btn_more">Kengash fatvosi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slider-arrow prev-arrow" aria-label="Oldingi slayd">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </button>
+        <button class="slider-arrow next-arrow" aria-label="Keyingi slayd">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="slider-dot active" data-index="0"></span>
+            <span class="slider-dot" data-index="1"></span>
+        </div>
+    </section>
+
+    
+    <section class="services-row-section" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge" data-translate="services_badge">Xizmatlarimiz</span>
+                <h2 class="section-title" data-translate="services_title">Halol Moliyaviy Yechimlar</h2>
+                <p class="section-subtitle" data-translate="services_subtitle">Biznesingiz taraqqiyoti va shaxsiy jamg'armalaringiz xavfsizligi uchun Shariat kengashi ma'qullagan premium bank xizmatlari</p>
+            </div>
+            
+            <div class="services-row-grid">
+                
+                <!-- Card 1: Biznesni moliyalash (Wide Card) -->
+                <div class="service-card wide-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card1_title">Biznesni moliyalash</h3>
+                        <p class="card-subtitle" data-translate="card1_subtitle">Aylanma mablag'lar uchun</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card1_detail1">• Ustama: 10-14% yillik (Murabaha)</li>
+                                <li data-translate="card1_detail2">• Muddat: 6 oydan 36 oygacha</li>
+                                <li data-translate="card1_detail3">• Garov: Ko'chmas mulk yoki kafillik</li>
+                                <li data-translate="card1_detail4">• Hujjatlar: Biznes reja va moliyaviy hisobotlar</li>
+                            </ul>
+                        </div>
+                        <a href="#financing" class="card-btn-rect hide-mobile-btn" data-translate="card_btn_apply">Ariza topshirish</a>
+                        <a href="#financing" class="card-btn-circular show-mobile-btn" data-translate-aria="card_btn_apply" aria-label="Ariza topshirish">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card-illustration">
+                    <img src="./img/icon/hayotbankicon/biznesMoliyalashtirhs.png" class="services-grid-img wide-img" alt="Biznesni moliyalash">
+                    </div>
+                </div>
+                
+                <!-- Card 2: Korporativ kartalar (Square Card) -->
+                <div class="service-card square-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card2_title">Korporativ kartalar</h3>
+                        <p class="card-subtitle" data-translate="card2_subtitle">Uzcard va Humo biznes uchun</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card2_detail1">• Karta turi: Uzcard / Humo Business</li>
+                                <li data-translate="card2_detail2">• Ochish: Bepul va tezkor</li>
+                                <li data-translate="card2_detail3">• SMS-habar: Bepul ulanadi</li>
+                                <li data-translate="card2_detail4">• Komissiya: To'lovlar uchun 0%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#financing" class="card-btn-circular" data-translate-aria="card_btn_order" aria-label="Buyurtma berish">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="card-illustration">
+                        <img src="./img/icon/hayotbankicon/card_coin_cridet.png" class="services-grid-img square-img" alt="Korporativ kartalar">
+                    </div>
+                </div>
+
+                <!-- Card 3: Islomiy lizing (Square Card) -->
+                <div class="service-card square-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card3_title">Islomiy lizing</h3>
+                        <p class="card-subtitle" data-translate="card3_subtitle">Avtotransport va maxsus texnikalar</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card3_detail1">• Shartnoma: Ijara Muntahiya Bittamlik</li>
+                                <li data-translate="card3_detail2">• Boshlang'ich to'lov: 20% dan boshlab</li>
+                                <li data-translate="card3_detail3">• Muddat: 1 yildan 5 yilgacha</li>
+                                <li data-translate="card3_detail4">• Sug'urta: Takaful tizimi orqali</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#financing" class="card-btn-circular" data-translate-aria="card_btn_lizing" aria-label="Lizing olish">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="card-illustration">
+                        <img src="./img/icon/hayotbankicon/lizing.png" class="services-grid-img square-img" alt="Islomiy lizing">
+                    </div>
+                </div>
+
+                <!-- Card 4: Faktoring xizmati (Square Card) -->
+                <div class="service-card square-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card4_title">Faktoring xizmati</h3>
+                        <p class="card-subtitle" data-translate="card4_subtitle">Debitorlik qarzdorlikni qoplash</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card4_detail1">• Moliyalash: Summaning 90% gacha</li>
+                                <li data-translate="card4_detail2">• Rasmiylashtirish: 1 ish kunida</li>
+                                <li data-translate="card4_detail3">• Garovsiz va kafillarsiz</li>
+                                <li data-translate="card4_detail4">• Doimiy to'lovlar oqimi ta'minoti</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#financing" class="card-btn-circular" data-translate-aria="card_btn_apply" aria-label="Ariza topshirish">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="card-illustration">
+                        <img src="./img/icon/hayotbankicon/faktoring.png" class="services-grid-img square-img" alt="Faktoring xizmati">
+                    </div>
+                </div>
+
+                <!-- Card 5: Tijorat ipotekasi (Square Card) -->
+                <div class="service-card square-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card5_title">Tijorat ipotekasi</h3>
+                        <p class="card-subtitle" data-translate="card5_subtitle">Ofis va omborxonalar uchun</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card5_detail1">• Maqsad: Ofis va ombor sotib olish</li>
+                                <li data-translate="card5_detail2">• Boshlang'ich to'lov: 25% dan boshlab</li>
+                                <li data-translate="card5_detail3">• Muddat: 10 yilgacha (Murabaha)</li>
+                                <li data-translate="card5_detail4">• Rasmiylashtirish: Qonuniy va halol</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#financing" class="card-btn-circular" data-translate-aria="card_btn_apply" aria-label="Ariza topshirish">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="card-illustration">
+                        <img src="./img/icon/hayotbankicon/bank.png" class="services-grid-img square-img" alt="Tijorat ipotekasi">
+                    </div>
+                </div>
+
+                <!-- Card 6: Biznes omonatlari (Wide Card) -->
+                <div class="service-card wide-card">
+                    <div class="card-content">
+                        <h3 class="card-title" data-translate="card6_title">Biznes omonatlari</h3>
+                        <p class="card-subtitle" data-translate="card6_subtitle">Mudaraba sherikligida halol foyda</p>
+                        <div class="card-details-expanded">
+                            <ul>
+                                <li data-translate="card6_detail1">• Shartnoma turi: Mudaraba shartnomasi</li>
+                                <li data-translate="card6_detail2">• Taqsimot: 70% Investor / 30% Bank</li>
+                                <li data-translate="card6_detail3">• Minimal summa: 10,000,000 UZS</li>
+                                <li data-translate="card6_detail4">• Muddat: 3 oydan 24 oygacha</li>
+                            </ul>
+                        </div>
+                        <a href="#financing" class="card-btn-rect hide-mobile-btn" data-translate="card_btn_invest">Joylashtirish</a>
+                        <a href="#financing" class="card-btn-circular show-mobile-btn" data-translate-aria="card_btn_invest" aria-label="Joylashtirish">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card-illustration">
+                        <img src="./img/icon/hayotbankicon/safe.png" class="services-grid-img wide-img" alt="Biznes omonatlari">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services for Convenience Marquee Section -->
+    <section class="convenience-section" id="convenience">
+        <div class="container-fluid px-0">
+            <div class="section-header text-center">
+                <span class="section-badge" data-translate="conv_badge">Qulayliklar</span>
+                <h2 class="section-title" data-translate="conv_title">Sizning qulayligingiz uchun xizmatlar</h2>
+                <p class="section-subtitle" data-translate="conv_subtitle">Biznesingiz samaradorligini oshirish va kundalik operatsiyalarni osonlashtirish uchun mo'ljallangan zamonaviy raqamli xizmatlar</p>
+            </div>
+            <div class="marquee-wrapper">
+                <div class="marquee-track">
+                    <!-- Card 1: SMS-xabarnoma -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-teal-1">
+                            <img src="./img/icon/hayotbankicon/sms-xabarnoma.png" alt="SMS-xabarnoma">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_sms_title">SMS-xabarnoma</h3>
+                        <p class="conv-card-desc" data-translate="conv_sms_desc">Mablag'ingiz harakati haqida tezkor xabarnomalar oling va bank yangiliklaridan xabardor bo'ling</p>
+                    </div>
+                    
+                    <!-- Card 2: MUNIS to'lovlari -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-orange-1">
+                            <img src="./img/icon/hayotbankicon/munisTo'lovlar.png" alt="MUNIS to'lovlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_munis_title">MUNIS to'lovlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_munis_desc">Davlat va kommunal xizmatlar, jarimalarni to'lovlarni qabul qilish oddiy va ishonchli tizimi yordamida to'lang</p>
+                    </div>
+
+                    <!-- Card 3: TTT to'lovlari -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-cyan-1">
+                            <img src="./img/icon/hayotbankicon/TTT%20to'lovlar.png" alt="TTT to'lovlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_ttt_title">TTT to'lovlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_ttt_desc">Banklararo to'lovlarni 24/7 vaqt rejimida amalga oshiring</p>
+                    </div>
+
+                    <!-- Card 4: Bank bilan chat -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-teal-2">
+                            <img src="./img/icon/hayotbankicon/bankbilanchat.png" alt="Bank bilan chat">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_chat_title">Bank bilan chat</h3>
+                        <p class="conv-card-desc" data-translate="conv_chat_desc">Har qanday masalalarni bank vakillari bilan qulay yozishmalar orqali tezkor hal qilish</p>
+                    </div>
+
+                    <!-- Card 5: To'lov talabnomasi -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-orange-2">
+                            <img src="./img/icon/hayotbankicon/To'lovtalabnomasi.png" alt="To'lov talabnomasi">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_invoice_title">To'lov talabnomasi</h3>
+                        <p class="conv-card-desc" data-translate="conv_invoice_desc">To'lovchilarga to'lov talabnomalarini online-banking orqali taqdim etish</p>
+                    </div>
+
+                    <!-- Card 6: Kartoteka №2 -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-cyan-2">
+                            <img src="./img/icon/hayotbankicon/phone.png" alt="Kartoteka №2">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_kartoteka_title">Kartoteka №2</h3>
+                        <p class="conv-card-desc" data-translate="conv_kartoteka_desc">Online-bankda kompaniya qarzdorliklari haqida tezkor xabar yetkazish</p>
+                    </div>
+
+                    <!-- Card 7: Onlayn-hisobot -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-teal-3">
+                            <img src="./img/icon/hayotbankicon/onlayn.png" alt="Onlayn-hisobot">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_report_title">Onlayn-hisobot</h3>
+                        <p class="conv-card-desc" data-translate="conv_report_desc">Hisob raqamdan ko'chirmalar, ma'lumotnomalar va hisobotlarni bankka bormasdan olish</p>
+                    </div>
+
+                    <!-- Card 8: Moliyalashtirish bo'yicha ma'lumotlar -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-orange-1">
+                            <img src="./img/icon/hayotbankicon/vallet.png" alt="Moliyalashtirish ma'lumotlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_finance_info_title">Moliyalashtirish ma'lumotlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_finance_info_desc">Qarzdorlik qoldig'i, keyingi to'lovlar va boshqa ma'lumotlarga onlayn ega bo'lish</p>
+                    </div>
+
+                    <!-- Card 9: Onlayn-konsultant -->
+                    <div class="convenience-card">
+                        <div class="conv-icon-box bg-cyan-1">
+                            <img src="./img/icon/hayotbankicon/onlayn-konsultant.png" alt="Onlayn-konsultant">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_consultant_title">Onlayn-konsultant</h3>
+                        <p class="conv-card-desc" data-translate="conv_consultant_desc">Bank saytidan chiqmasdan turib har qanday savollarga to'liq javob olish</p>
+                    </div>
+
+                    <!-- Card 10: Mahsulotlar bo'yicha gid -->
+                    <div class="convenience-card soon-card">
+                        <div class="soon-badge" data-translate="conv_soon">Tez orada</div>
+                        <div class="conv-icon-box bg-teal-4">
+                            <img src="./img/icon/hayotbankicon/mahsulot-bo'yicha-gid.png" alt="Mahsulotlar bo'yicha gid">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_guide_title">Mahsulotlar bo'yicha gid</h3>
+                        <p class="conv-card-desc" data-translate="conv_guide_desc">Bank barcha mahsulotlari va xizmatlari bo'yicha batafsil materiallar bir joyda</p>
+                    </div>
+
+                    <!-- Card 11: 1C integratsiya -->
+                    <div class="convenience-card soon-card">
+                        <div class="soon-badge" data-translate="conv_soon">Tez orada</div>
+                        <div class="conv-icon-box bg-orange-2">
+                            <img src="./img/icon/hayotbankicon/1c integratsiyasi.png" alt="1C integratsiyasi">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_onec_title">"1C" integratsiya</h3>
+                        <p class="conv-card-desc" data-translate="conv_onec_desc">Bank operatsiyalarini to'g'ridan-to'g'ri "1C" tizimlari orqali amalga oshiring</p>
+                    </div>
+                    
+                    <!-- Duplicated block for seamless looping -->
+                    <!-- Card 1: SMS-xabarnoma -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-teal-1">
+                            <img src="./img/icon/hayotbankicon/sms-xabarnoma.png" alt="SMS-xabarnoma">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_sms_title">SMS-xabarnoma</h3>
+                        <p class="conv-card-desc" data-translate="conv_sms_desc">Mablag'ingiz harakati haqida tezkor xabarnomalar oling va bank yangiliklaridan xabardor bo'ling</p>
+                    </div>
+                    
+                    <!-- Card 2: MUNIS to'lovlari -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-orange-1">
+                            <img src="./img/icon/hayotbankicon/munisTo'lovlar.png" alt="MUNIS to'lovlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_munis_title">MUNIS to'lovlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_munis_desc">Davlat va kommunal xizmatlar, jarimalarni to'lovlarni qabul qilish oddiy va ishonchli tizimi yordamida to'lang</p>
+                    </div>
+
+                    <!-- Card 3: TTT to'lovlari -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-cyan-1">
+                            <img src="./img/icon/hayotbankicon/TTT%20to'lovlar.png" alt="TTT to'lovlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_ttt_title">TTT to'lovlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_ttt_desc">Banklararo to'lovlarni 24/7 vaqt rejimida amalga oshiring</p>
+                    </div>
+
+                    <!-- Card 4: Bank bilan chat -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-teal-2">
+                            <img src="./img/icon/hayotbankicon/bankbilanchat.png" alt="Bank bilan chat">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_chat_title">Bank bilan chat</h3>
+                        <p class="conv-card-desc" data-translate="conv_chat_desc">Har qanday masalalarni bank vakillari bilan qulay yozishmalar orqali tezkor hal qilish</p>
+                    </div>
+
+                    <!-- Card 5: To'lov talabnomasi -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-orange-2">
+                            <img src="./img/icon/hayotbankicon/To'lovtalabnomasi.png" alt="To'lov talabnomasi">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_invoice_title">To'lov talabnomasi</h3>
+                        <p class="conv-card-desc" data-translate="conv_invoice_desc">To'lovchilarga to'lov talabnomalarini online-banking orqali taqdim etish</p>
+                    </div>
+
+                    <!-- Card 6: Kartoteka №2 -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-cyan-2">
+                            <img src="./img/icon/hayotbankicon/phone.png" alt="Kartoteka №2">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_kartoteka_title">Kartoteka №2</h3>
+                        <p class="conv-card-desc" data-translate="conv_kartoteka_desc">Online-bankda kompaniya qarzdorliklari haqida tezkor xabar yetkazish</p>
+                    </div>
+
+                    <!-- Card 7: Onlayn-hisobot -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-teal-3">
+                            <img src="./img/icon/hayotbankicon/onlayn.png" alt="Onlayn-hisobot">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_report_title">Onlayn-hisobot</h3>
+                        <p class="conv-card-desc" data-translate="conv_report_desc">Hisob raqamdan ko'chirmalar, ma'lumotnomalar va hisobotlarni bankka bormasdan olish</p>
+                    </div>
+
+                    <!-- Card 8: Moliyalashtirish bo'yicha ma'lumotlar -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-orange-1">
+                            <img src="./img/icon/hayotbankicon/vallet.png" alt="Moliyalashtirish ma'lumotlari">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_finance_info_title">Moliyalashtirish ma'lumotlari</h3>
+                        <p class="conv-card-desc" data-translate="conv_finance_info_desc">Qarzdorlik qoldig'i, keyingi to'lovlar va boshqa ma'lumotlarga onlayn ega bo'lish</p>
+                    </div>
+
+                    <!-- Card 9: Onlayn-konsultant -->
+                    <div class="convenience-card" aria-hidden="true">
+                        <div class="conv-icon-box bg-cyan-1">
+                            <img src="./img/icon/hayotbankicon/onlayn-konsultant.png" alt="Onlayn-konsultant">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_consultant_title">Onlayn-konsultant</h3>
+                        <p class="conv-card-desc" data-translate="conv_consultant_desc">Bank saytidan chiqmasdan turib har qanday savollarga to'liq javob olish</p>
+                    </div>
+
+                    <!-- Card 10: Mahsulotlar bo'yicha gid -->
+                    <div class="convenience-card soon-card" aria-hidden="true">
+                        <div class="soon-badge" data-translate="conv_soon">Tez orada</div>
+                        <div class="conv-icon-box bg-teal-4">
+                            <img src="./img/icon/hayotbankicon/mahsulot-bo'yicha-gid.png" alt="Mahsulotlar bo'yicha gid">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_guide_title">Mahsulotlar bo'yicha gid</h3>
+                        <p class="conv-card-desc" data-translate="conv_guide_desc">Bank barcha mahsulotlari va xizmatlari bo'yicha batafsil materiallar bir joyda</p>
+                    </div>
+
+                    <!-- Card 11: 1C integratsiya -->
+                    <div class="convenience-card soon-card" aria-hidden="true">
+                        <div class="soon-badge" data-translate="conv_soon">Tez orada</div>
+                        <div class="conv-icon-box bg-orange-2">
+                            <img src="./img/icon/hayotbankicon/1c integratsiyasi.png" alt="1C integratsiyasi">
+                        </div>
+                        <h3 class="conv-card-title" data-translate="conv_onec_title">"1C" integratsiya</h3>
+                        <p class="conv-card-desc" data-translate="conv_onec_desc">Bank operatsiyalarini to'g'ridan-to'g'ri "1C" tizimlari orqali amalga oshiring</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid View (cloned dynamically via JS) -->
+            <div class="container">
+                <div class="convenience-grid-view" id="convenience-grid"></div>
+            </div>
+
+            <!-- Toggle Button to show all rows -->
+            <div class="convenience-action-container text-center">
+                <button class="btn btn-outline-primary" id="btn-toggle-convenience" data-translate="conv_btn_all">Barchasi</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Financing (Credit) Process Section — Redesigned -->
+    <section class="financing-section" id="financing">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge" data-translate="fin_badge">Onlayn Rasmiylashtirish</span>
+                <h2 class="section-title" data-translate="fin_title">Kreditni qanday rasmiylashtirish mumkin?</h2>
+                <p class="section-subtitle" data-translate="fin_subtitle">Uydan chiqmasdan, atigi 5 daqiqada Shariat tamoyillariga asoslangan halol moliyalashga ariza bering</p>
+            </div>
+
+            <!-- Single unified card -->
+            <div class="fin-unified-card">
+
+                <!-- Tab navigation inside card header -->
+                <div class="fin-card-header">
+                    <div class="fin-card-tabs">
+                        <button class="fin-tab active" id="tab-btn-finance" data-translate="tab_finance">Moliyalash</button>
+                        <button class="fin-tab" id="tab-btn-deposit" data-translate="tab_deposit">Jamg'arma</button>
+                    </div>
+                    <span class="fin-riba-badge" id="calc-badge" data-translate="mockup_badge">0% Ribo</span>
+                </div>
+
+                <!-- Two column body -->
+                <div class="fin-card-body">
+
+                    <!-- LEFT: Sliders + Result Grid -->
+                    <div class="fin-calc-side">
+                        <h3 class="fin-calc-title" id="calc-title" data-translate="mockup_title">Tezkor Murabaha moliyalash</h3>
+
+                        <!-- Amount Slider -->
+                        <div class="fin-slider-group">
+                            <div class="fin-slider-header">
+                                <span class="fin-slider-label" id="slider-label-1" data-translate="mockup_amount_label">Moliyalash summasi</span>
+                                <span class="fin-slider-val" id="fin-amount-display">15,000,000 UZS</span>
+                            </div>
+                            <input type="range" id="fin-amount" min="1000000" max="100000000" step="500000" value="15000000" class="fin-range">
+                            <div class="fin-slider-limits" id="slider-limits-1">
+                                <span>1 mln</span>
+                                <span>100 mln</span>
+                            </div>
+                        </div>
+
+                        <!-- Duration Slider -->
+                        <div class="fin-slider-group">
+                            <div class="fin-slider-header">
+                                <span class="fin-slider-label" id="slider-label-2" data-translate="mockup_duration_label">To'lov muddati</span>
+                                <span class="fin-slider-val" id="fin-duration-display">12 oy</span>
+                            </div>
+                            <input type="range" id="fin-duration" min="3" max="36" step="1" value="12" class="fin-range">
+                            <div class="fin-slider-limits" id="slider-limits-2">
+                                <span>3 oy</span>
+                                <span>36 oy</span>
+                            </div>
+                        </div>
+
+                        <!-- Result 4-grid cards (reference style) -->
+                        <div class="fin-result-grid">
+                            <div class="fin-result-card fin-result-highlight">
+                                <span class="fin-result-label" data-translate="mockup_payment_label">Oylik to'lov</span>
+                                <span class="fin-result-value primary" id="fin-monthly-payment">1,400,000 UZS</span>
+                            </div>
+                            <div class="fin-result-card">
+                                <span class="fin-result-label" data-translate="mockup_total_label">Jami summa</span>
+                                <span class="fin-result-value" id="fin-total-payment">16,800,000 UZS</span>
+                            </div>
+                            <div class="fin-result-card">
+                                <span class="fin-result-label" id="result-label-1" data-translate="mockup_markup_label">Ustama foyda</span>
+                                <span class="fin-result-value accent" id="result-value-1">12%</span>
+                            </div>
+                            <div class="fin-result-card">
+                                <span class="fin-result-label">Muddat</span>
+                                <span class="fin-result-value" id="fin-term-display">12 oy</span>
+                            </div>
+                        </div>
+
+                        <button class="fin-apply-btn" id="fin-apply-btn" data-translate="mockup_btn_apply">Ariza yuborish</button>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="fin-divider"></div>
+
+                    <!-- RIGHT: Numbered Steps -->
+                    <div class="fin-steps-side">
+                        <div class="fin-step">
+                            <div class="fin-step-num">01</div>
+                            <div class="fin-step-body">
+                                <h4 data-translate="fin_step1_title">Summa va muddatni tanlang</h4>
+                                <p data-translate="fin_step1_desc">Kalkulyatorda o'zingizga kerakli mablag' va to'lov muddatini belgilang.</p>
+                            </div>
+                        </div>
+                        <div class="fin-step">
+                            <div class="fin-step-num">02</div>
+                            <div class="fin-step-body">
+                                <h4 data-translate="fin_step2_title">Shaxsingizni tasdiqlang</h4>
+                                <p data-translate="fin_step2_desc">Pasport yoki ID-karta hamda Face ID orqali tezkor va xavfsiz autentifikatsiyadan o'ting.</p>
+                            </div>
+                        </div>
+                        <div class="fin-step">
+                            <div class="fin-step-num">03</div>
+                            <div class="fin-step-body">
+                                <h4 data-translate="fin_step3_title">Skoring natijasini kuting</h4>
+                                <p data-translate="fin_step3_desc">Sun'iy intellektga asoslangan baholash tizimi 5 daqiqada arizangiz bo'yicha qaror qabul qiladi.</p>
+                            </div>
+                        </div>
+                        <div class="fin-step fin-step-last">
+                            <div class="fin-step-num fin-step-num-active">04</div>
+                            <div class="fin-step-body">
+                                <h4 data-translate="fin_step4_title">Mablag'ni qabul qiling</h4>
+                                <p data-translate="fin_step4_desc">Murabaha shartnomasi rasmiylashtirilib, pul o'sha zaxotiyoq kartangizga o'tkaziladi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Premium Cards Showcase Section -->
+
+    <section class="cards-section" id="cards">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge" data-translate="cards_badge">Eksklyuziv taklif</span>
+                <h2 class="section-title" data-translate="cards_title">Hayot Bank Premium Kartalari</h2>
+                <p class="section-subtitle" data-translate="cards_subtitle">Shariat talablariga to'liq javob beruvchi va sizga yuqori darajadagi qulayliklarni taqdim etuvchi halol premium kartalar</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Card 1: Humo Prestige -->
+                <div class="premium-card-item">
+                    <div class="digital-card card-humo-prestige">
+                        <div class="card-inner">
+                            <div class="card-top">
+                                <span class="card-bank-name">Hayot Bank</span>
+                                <span class="card-level">Prestige</span>
+                            </div>
+                            <div class="card-middle">
+                                <div class="card-chip"></div>
+                                <svg class="card-contactless" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17.15c.9-.9.9-2.4 0-3.3M8.3 20.45a7.1 7.1 0 0 0 0-10.1M11.6 23.75a12.1 12.1 0 0 0 0-16.9"/></svg>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-number">•••• •••• •••• 8888</div>
+                                <div class="card-footer-info">
+                                    <span class="card-holder">JAVLONBEK ABDULLAEV</span>
+                                    <span class="card-brand">HUMO</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <h3 class="card-item-title" data-translate="card_humo_title">Hayot Humo Prestige</h3>
+                        <p class="card-item-desc" data-translate="card_humo_desc">O'zbekiston ichida barcha turdagi xaridlar uchun qulay va foydali to'lov vositasi.</p>
+                        <ul class="card-features-list">
+                            <li data-translate="card_humo_feat1">100% Halol (Ribo foizlarisiz)</li>
+                            <li data-translate="card_humo_feat2">Hamkorlar tarmog'ida 5% gacha keshbek</li>
+                            <li data-translate="card_humo_feat3">Bepul yetkazib berish (24 soat ichida)</li>
+                        </ul>
+                        <a href="#financing" class="btn btn-secondary btn-block" data-translate="card_btn_order">Buyurtma berish</a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Visa Infinite -->
+                <div class="premium-card-item">
+                    <div class="digital-card card-visa-infinite">
+                        <div class="card-inner">
+                            <div class="card-top">
+                                <span class="card-bank-name">Hayot Bank</span>
+                                <span class="card-level">Infinite</span>
+                            </div>
+                            <div class="card-middle">
+                                <div class="card-chip"></div>
+                                <svg class="card-contactless" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17.15c.9-.9.9-2.4 0-3.3M8.3 20.45a7.1 7.1 0 0 0 0-10.1M11.6 23.75a12.1 12.1 0 0 0 0-16.9"/></svg>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-number">•••• •••• •••• 9999</div>
+                                <div class="card-footer-info">
+                                    <span class="card-holder">JAVLONBEK ABDULLAEV</span>
+                                    <span class="card-brand">VISA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <h3 class="card-item-title" data-translate="card_visa_title">Hayot Visa Infinite</h3>
+                        <p class="card-item-desc" data-translate="card_visa_desc">Butun dunyo bo'ylab sayohatlar va nufuzli xaridlar uchun eksklyuziv islomiy karta.</p>
+                        <ul class="card-features-list">
+                            <li data-translate="card_visa_feat1">Lounge Key (Aeroportlarda VIP zallar)</li>
+                            <li data-translate="card_visa_feat2">Dunyo bo'ylab 0% yashirin komissiyalar</li>
+                            <li data-translate="card_visa_feat3">Shaxsiy Premium Konsyerj xizmati 24/7</li>
+                        </ul>
+                        <a href="#financing" class="btn btn-secondary btn-block" data-translate="card_btn_order">Buyurtma berish</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Virtual Humo/Visa -->
+                <div class="premium-card-item">
+                    <div class="digital-card card-virtual-gold">
+                        <div class="card-inner">
+                            <div class="card-top">
+                                <span class="card-bank-name">Hayot Bank</span>
+                                <span class="card-level">Virtual</span>
+                            </div>
+                            <div class="card-middle">
+                                <div class="card-chip-virtual"></div>
+                                <svg class="card-contactless" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17.15c.9-.9.9-2.4 0-3.3M8.3 20.45a7.1 7.1 0 0 0 0-10.1M11.6 23.75a12.1 12.1 0 0 0 0-16.9"/></svg>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-number">•••• •••• •••• 7777</div>
+                                <div class="card-footer-info">
+                                    <span class="card-holder">INSTANT VIRTUAL</span>
+                                    <span class="card-brand">HUMO / VISA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <h3 class="card-item-title" data-translate="card_virt_title">Hayot Instant Virtual</h3>
+                        <p class="card-item-desc" data-translate="card_virt_desc">Internet saytlarida xavfsiz xaridlar qilish uchun ilova ichida bir zumda ochiladigan karta.</p>
+                        <ul class="card-features-list">
+                            <li data-translate="card_virt_feat1">Atigi 10 soniyada ilovada ochiladi</li>
+                            <li data-translate="card_virt_feat2">Mutlaqo bepul xizmat ko'rsatish</li>
+                            <li data-translate="card_virt_feat3">Onlayn to'lovlar uchun 3D-Secure xavfsizlik</li>
+                        </ul>
+                        <a href="#financing" class="btn btn-outline-primary btn-block" data-translate="card_btn_open_app">Ilovada ochish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                             <!-- About Section (Hamkorbank & Hayot Bank Statistics) -->
+                                <section class="about-section" id="about">
+                                    <div class="container">
+                                        <div class="section-header text-center">
+                                            <span class="section-badge" data-translate="about_badge">Bank tarixi</span>
+                                            <h2 class="section-title" data-translate="about_title">Rivojlanish yo'limiz</h2>
+                                            <p class="section-subtitle" data-translate="about_subtitle">«HAYOT BANK» AJ tashkil etilgan kundan boshlab bugungi kungacha bosib o'tgan yutuqlari va muhim voqealari solnomasi</p>
+                                        </div>
+                            
+                                        <!-- Timeline Year Selector -->
+                                        <div class="timeline-years">
+                                            <div class="timeline-line"></div>
+                                            <button class="timeline-year-btn active" data-year="2022">2022</button>
+                                            <button class="timeline-year-btn" data-year="2023">2023</button>
+                                            <button class="timeline-year-btn" data-year="2024">2024</button>
+                                            <button class="timeline-year-btn" data-year="2025">2025</button>
+                                        </div>
+
+                                        <!-- Timeline Content Wrapper -->
+                                        <div class="timeline-content-wrapper">
+                                            <!-- 2022 Content -->
+                                            <div class="timeline-year-content active" id="content-2022">
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2022_0_date">31-avgust</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2022_0_desc">O‘zbekiston Respublikasi Markaziy Bankining dastlabki litsenziyasi olindi</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- 2023 Content -->
+                                            <div class="timeline-year-content" id="content-2023">
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_0_date">16-mart</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_0_desc">O‘zbekiston Respublikasi Markaziy bankidan litsenziya olindi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_1_date">1-aprel</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_1_desc">«HAYOT BANK» AJ «O‘zbekiston Respublikasi Markaziy bankining Axborashlashtirish Bosh Markazi» DUK bilan shartnoma tuzdi.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_2_date">6-aprel</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_2_desc">HUMO to‘lov tizimi bilan integratsiya</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_3_date">17-aprel</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_3_desc">UZCARD to‘lov tizimi bilan integratsiya</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_4_date">1-may</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_4_desc">«HAYOT BANK» AJ «Anor» 24/7 tezkor to’lovlar tizimini uladi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_5_date">1-iyun</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_5_desc">«HAYOT BANK» AJ korporativ mijozlar uchun «Onlayn banking – ob.hayotbank.uz»ni ishga tushirdi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_6_date">2-iyun</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_6_desc">“Oybek” – bank xizmatlari bo‘yicha birinchi markazimiz ochildi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2023_7_date">3-iyul</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2023_7_desc">«HAYOT BANK» AJ O‘zbekiston Respublika valyuta birjasiga (O‘zRVB) barcha toifalar – “A”, “B” va “C” bo‘yicha qo‘shildi.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- 2024 Content -->
+                                            <div class="timeline-year-content" id="content-2024">
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_0_date">3-yanvar</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_0_desc">«HAYOT BANK» AJ korporativ mijozlar uchun «HAYOT BUSINESS» mobil bankingni ishga tushirdi.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_1_date">18-yanvar</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_1_desc">«HAYOT BANK» AJ “O‘zbekiston” mehmonxonasida 24/7 rejimda ishlaydigan ayirboshlash shoxobchasini ishga tushirdi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_2_date">1-mart</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_2_desc">«HAYOT BANK» AJ jismoniy shaxslar uchun «Hayot Bank» mobil ilovasini ishga tushirdi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_3_date">3-iyun</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_3_desc">«HAYOT BANK» AJ NPS va CSI indekslari bo'yicha ko'rsatilayotgan xizmatlar sifati sertifikatini qo’lga kiritdi.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_4_date">7-iyun</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_4_desc">UZCARD-Mastercard bank kartalari ishga tushirildi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_5_date">27-avgust</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_5_desc">«HAYOT BANK» AJ Chirchiq shahrida BXOni ochdi.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_6_date">1-noyabr</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_6_desc">«HAYOT BANK» AJ Samarqand shahrida BXMni ochdi!</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_7_date">18-dekabr</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_7_desc">«HAYOT BANK» AJ Qo’qon shahrida BXMni ochdi!</p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2024_8_date">19-dekabr</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2024_8_desc">«HAYOT BANK» AJga milliy shkala bo’yicha “Barqaror” kredit reytingi berildi.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- 2025 Content -->
+                                            <div class="timeline-year-content" id="content-2025">
+                                                <div class="timeline-card">
+                                                    <div class="timeline-date-wrapper">
+                                                        <span class="timeline-date-badge" data-translate="history_2025_0_date">10-yanvar</span>
+                                                    </div>
+                                                    <div class="timeline-card-body">
+                                                        <p data-translate="history_2025_0_desc">«HAYOT BANK» AJ Toshkent shahrida «Yashnobod» BXMni ochdi!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand-col">
+                <a href="#" class="logo footer-logo">
+                    <img src="img/icon/HayotBankLogo.svg" alt="Hayot Bank" class="logo-img">
+                </a>
+                <p class="footer-about" data-translate="footer_about">
+                    Hayot Bank — Shariat Advisory Board nazorati ostida ishlaydigan premium raqamli islom banki. Litsenziya № 254.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Telegram">
+                        <span class="icon-svg icon-telegram"></span>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <span class="icon-svg icon-instagram"></span>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <span class="icon-svg icon-facebook"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links-col">
+                <h4 data-translate="footer_heading_services">Xizmatlar</h4>
+                <ul>
+                    <li><a href="#calculator" data-translate="footer_link_microloans">Murabaha Avto</a></li>
+                    <li><a href="#features" data-translate="footer_link_deposits">Mudaraba Jamg'armasi</a></li>
+                    <li><a href="#hero" data-translate="footer_link_cashback">Prestige Halol Karta</a></li>
+                    <li><a href="#rates" data-translate="footer_link_exchange">Valyuta konvertatsiyasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4 data-translate="footer_heading_docs">Hujjatlar</h4>
+                <ul>
+                    <li><a href="#sharia" data-translate="footer_link_licenses">Shariat Fatvolari</a></li>
+                    <li><a href="#" data-translate="footer_link_rates">Tariflar va komissiyalar</a></li>
+                    <li><a href="#" data-translate="footer_link_privacy">Maxfiylik siyosati</a></li>
+                    <li><a href="#" data-translate="footer_link_terms">Ommaviy oferta</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4 data-translate="footer_heading_subscribe">Obuna bo'ling</h4>
+                <p class="subscribe-text" data-translate="footer_subscribe_desc">Islomiy moliya dunyosi va xususiy bank investitsiya hisobotlaridan xabardor bo'ling</p>
+                <form class="subscribe-form">
+                    <input type="email" required data-translate-placeholder="footer_subscribe_placeholder" placeholder="Elektron manzilingiz">
+                    <button type="submit" class="btn btn-primary btn-sm" data-translate="footer_subscribe_btn">Yuborish</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p data-translate="footer_copyright">&copy; 2026 Hayot Bank. Barcha huquqlar himoyalangan.</p>
+                <p data-translate="footer_creator">Sayt dizayni: Abdullaev Javlonbek</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget" id="chatbot-widget">
+        <!-- Floating Toggle Button -->
+        <button class="chat-toggle-btn" id="chat-toggle-btn" aria-label="Yordamchi chat">
+            <div class="chat-icon-container">
+                <!-- Default Chat Icon -->
+                <svg class="chat-icon-default" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <!-- Hayot Bank Logo Icon -->
+                <svg class="chat-icon-logo" width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.82277 -0.0124512L12.3323 5.489L10.5055 10.093L5.89477 11.9171L0.385254 6.41564L2.20226 1.81942L6.82277 -0.0124512Z" fill="currentColor"/>
+                    <path d="M18.7671 11.9194L24.2766 17.4209L22.4499 22.0249L17.8391 23.849L12.3296 18.3475L14.1466 13.7513L18.7671 11.9194Z" fill="currentColor"/>
+                    <path d="M12.3296 5.489L17.8391 -0.0124512L22.4499 1.81163L24.2766 6.41564L18.7671 11.9171L14.1641 10.1027L12.3296 5.489Z" fill="currentColor"/>
+                    <path d="M0.385254 17.4209L5.89477 11.9194L10.5055 13.7416L12.3323 18.3475L6.82277 23.849L2.21981 22.0346L0.385254 17.4209Z" fill="currentColor"/>
+                </svg>
+            </div>
+            <span class="chat-notification-badge">1</span>
+        </button>
+
+        <!-- Chat Window -->
+        <div class="chat-window" id="chat-window">
+            <div class="chat-window-header">
+                <div class="chat-assistant-info">
+                    <div class="chat-assistant-avatar">
+                        <svg width="20" height="20" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.82277 -0.0124512L12.3323 5.489L10.5055 10.093L5.89477 11.9171L0.385254 6.41564L2.20226 1.81942L6.82277 -0.0124512Z" fill="currentColor"/>
+                            <path d="M18.7671 11.9194L24.2766 17.4209L22.4499 22.0249L17.8391 23.849L12.3296 18.3475L14.1466 13.7513L18.7671 11.9194Z" fill="currentColor"/>
+                            <path d="M12.3296 5.489L17.8391 -0.0124512L22.4499 1.81163L24.2766 6.41564L18.7671 11.9171L14.1641 10.1027L12.3296 5.489Z" fill="currentColor"/>
+                            <path d="M0.385254 17.4209L5.89477 11.9194L10.5055 13.7416L12.3323 18.3475L6.82277 23.849L2.21981 22.0346L0.385254 17.4209Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="chat-assistant-status">
+                        <h4>Hayot AI Assistant</h4>
+                        <span class="online-indicator"><span class="status-dot"></span> Online</span>
+                    </div>
+                </div>
+                <button class="chat-close-btn" id="chat-close-btn" aria-label="Yopish">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            
+            <div class="chat-window-body" id="chat-window-body">
+                <!-- Welcome Message -->
+                <div class="chat-bubble assistant-bubble animate-fade-in">
+                    <p id="chat-welcome-text">Assalomu alaykum! Men Hayot Bank raqamli yordamchisiman. Sizga qanday yordam bera olaman?</p>
+                </div>
+                
+                <!-- Quick replies pills -->
+                <div class="chat-quick-replies" id="chat-quick-replies">
+                    <button class="quick-reply-pill" data-keyword="murabaha">Murabaha Avto</button>
+                    <button class="quick-reply-pill" data-keyword="mudaraba">Mudaraba</button>
+                    <button class="quick-reply-pill" data-keyword="card">Prestige Karta</button>
+                    <button class="quick-reply-pill" data-keyword="zakat">Zakot</button>
+                </div>
+            </div>
+        
+            <div class="chat-window-footer">
+                <input type="text" id="chat-user-input" placeholder="Xabaringizni yozing...">
+                <button id="chat-send-btn" aria-label="Yuborish">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Script -->
+    <script src="app.js"></script>
+</body>
+</html>
