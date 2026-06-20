@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       "top_header_support": "Prestige Line: 1244",
       "top_header_license": "Markaziy Bank litsenziyasi № 254",
       "search_placeholder": "Qidiruv...",
-      "hero_badge": "Hayot Bank • Halol va Aqlli Xususiy Bankchilik",
+      "hero_badge": "Hayot Bank | Halol va Aqlli Xususiy Bankchilik",
       "hero_title": "Mablag'laringiz uchun <br><span class=\"text-gradient\">zumraddek sof</span> va halol o'sish",
       "hero_description": "Boyligingizni Shariat tamoyillariga to'liq mos ravishda, yashirin komissiyalarsiz va oliy darajadagi shaffoflik bilan boshqaring. Biz an'analar va zamonaviy taraqqiyotning mukammal uyg'unligimiz.",
       "hero_title_2": "Oilangiz kelajagi va <br><span class=\"text-gradient\">halol sarmoya</span>",
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       "top_header_support": "Prestige Line: 1244",
       "top_header_license": "Лицензия Центрального Банка № 254",
       "search_placeholder": "Поиск...",
-      "hero_badge": "Hayot Bank • Халяльный и Умный Частный Банкинг",
+      "hero_badge": "Hayot Bank | Халяльный и Умный Частный Банкинг",
       "hero_title": "Кристально чистый и <br><span class=\"text-gradient\">халяльный рост</span> активов",
       "hero_description": "Управляйте своим благосостоянием в полном соответствии с принципами Шариата, без скрытых комиссий и с безупречной прозрачностью. Мы — идеальный баланс традиций и современного прогресса.",
       "hero_title_2": "Будущее вашей семьи и <br><span class=\"text-gradient\">халяльные инвестиции</span>",
@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       "top_header_support": "Prestige Line: 1244",
       "top_header_license": "Licensed by the Central Bank of Uzbekistan No. 254",
       "search_placeholder": "Search...",
-      "hero_badge": "Hayot Bank • Halal & Smart Private Banking",
+      "hero_badge": "Hayot Bank | Halal & Smart Private Banking",
       "hero_title": "Purely transparent and <br><span class=\"text-gradient\">halal wealth growth</span>",
       "hero_description": "Manage your assets in absolute compliance with Shariah principles, with no hidden commissions and premium transparency. We are the perfect harmony of traditions and digital progress.",
       "hero_title_2": "Your family's future and <br><span class=\"text-gradient\">halal investments</span>",
@@ -785,7 +785,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           <div class="slide-overlay"></div>
           <div class="container slide-content-container">
             <div class="slide-content">
-              <div class="badge animate-fade-in" data-translate="hero_badge">Hayot Bank • Halol va Aqlli Xususiy Bankchilik</div>
+              <div class="badge animate-fade-in" data-translate="hero_badge">Hayot Bank | Halol va Aqlli Xususiy Bankchilik</div>
               <h1 class="hero-title animate-slide-up" data-translate="${titleKey}">Mablag'laringiz uchun</h1>
               <p class="hero-description animate-slide-up-delay" data-translate="${descKey}">Boyligingizni Shariat tamoyillariga to'liq mos ravishda boshqaring...</p>
               <div class="hero-btns animate-slide-up-delay-2">
